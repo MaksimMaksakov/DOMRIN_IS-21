@@ -1,3 +1,4 @@
+#В матрице элементы первого столбца возвести в куб.
 import numpy as np
 import random
 a = np.random.randint(10, size=(3, 3))
