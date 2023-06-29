@@ -20,7 +20,7 @@ class Woman(Chel):
         return self.gender
 
 
-krut = Man('ДЭН', 52, 'Мужик')
+krut = Man('ДЭН', 52, 'Мужчина')
 lame = Woman('АНТОНИна', 8, 'Женщина')
 print(krut.__dict__)
 print(krut.returns())
