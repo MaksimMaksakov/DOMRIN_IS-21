@@ -19,3 +19,10 @@ for i in range(len(matrix[1])):
 # Выводим измененную матрицу на экран
 for row in matrix:
     print(row)
+
+
+
+for j in range(b):
+    num = random.randint(0, 20)
+    replacement_array.append(num)
+    print('f:',replacement_array)
