@@ -3,17 +3,18 @@ import random
 
 matrix = []
 a=int(input('Введите кол-во строк:'))
-b=int(input('Введите кол-во стобоцов:'))
+b=int(input('Введите кол-во столбцов:'))
 for i in range(a):
     row = []
     for j in range(b):
         num = random.randint(0, 20)
         row.append(num)
     matrix.append(row)
+    print(row)
 replacement_array = [1, 2, 3]  # Пример одномерного массива
 
-for i in range(len(matrix[2])):
-    matrix[2][i] = replacement_array[i]
+for i in range(len(matrix[1])):
+    matrix[i][1] = replacement_array[i]
 
 # Выводим измененную матрицу на экран
 for row in matrix:
